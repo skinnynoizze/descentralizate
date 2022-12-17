@@ -1971,7 +1971,7 @@ section {
 }
 
 .hero .btn-watch-video i {
-  color: var(--color-secondary)
+  color: var(--color-secondary);
   font-size: 32px;
   transition: 0.3s;
   line-height: 0;
