@@ -24,6 +24,7 @@
   --color-clarito: #ffd380;
   --color-oscuro: #00202e;
   --color-azul-claro: #2c4875;
+  --color-gris: #e7dfd0;
 }
 
 /* Smooth scroll behavior */
@@ -37,6 +38,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
+  background-color: var(--color-gris);
 }
 
 a {
@@ -1969,7 +1971,7 @@ section {
 }
 
 .hero .btn-watch-video i {
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color-secondary)
   font-size: 32px;
   transition: 0.3s;
   line-height: 0;
