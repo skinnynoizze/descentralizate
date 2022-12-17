@@ -20,7 +20,8 @@
 :root {
   --color-default: #222222;
   --color-primary: #8a508f;
-  --color-secondary: #ffd380;
+  --color-secondary: #ffa600;
+  --color-clarito: #ffd380;
   --color-oscuro: #00202e;
 }
 
