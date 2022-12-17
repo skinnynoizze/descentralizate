@@ -21,6 +21,7 @@
   --color-default: #222222;
   --color-primary: #8a508f;
   --color-secondary: #ffd380;
+  --color-oscuro: #00202e;
 }
 
 /* Smooth scroll behavior */
@@ -248,7 +249,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: var(--color-oscuro);
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
