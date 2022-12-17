@@ -23,6 +23,7 @@
   --color-secondary: #ffa600;
   --color-clarito: #ffd380;
   --color-oscuro: #00202e;
+  --color-azul-claro: #2c4875;
 }
 
 /* Smooth scroll behavior */
@@ -2042,7 +2043,7 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #009786;
+  background: var(--color-azul-claro);
 }
 
 .hero .icon-box:hover .title a,
