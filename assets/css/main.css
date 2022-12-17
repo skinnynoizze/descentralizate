@@ -20,9 +20,8 @@
 :root {
   --color-default: #222222;
   /*--color-primary: #008374;*/
-  --color-primary: #003f5c;
-  /*--color-secondary: #f85a40;*/
-  --color-secondary: #00202e;
+  --color-primary: #8a508f;
+  --color-secondary: #ffd380;
 }
 
 /* Smooth scroll behavior */
