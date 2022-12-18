@@ -590,7 +590,7 @@ section {
     line-height: 0;
     transition: 0.5s;
     z-index: 9999;
-    margin-right: 10px;
+    /*margin-right: 10px;*/
   }
 
   .mobile-nav-hide {
