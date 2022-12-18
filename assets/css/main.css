@@ -1930,6 +1930,15 @@ section {
   padding: 60px 0 0 0;
 }
 
+
+.imagen {
+  height: 300px; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+
 @media (min-width: 1365px) {
   .hero {
     background-attachment: fixed;
@@ -1996,6 +2005,13 @@ section {
   .hero .btn-get-started,
   .hero .btn-watch-video {
     font-size: 14px;
+  }
+
+  .imagen {
+    height: 175px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
   }
 }
 
