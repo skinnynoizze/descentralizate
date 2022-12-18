@@ -2008,11 +2008,17 @@ section {
   }
 
   .imagen {
-    height: 175px; 
+    height: 270px; 
     display: block; 
     margin-left: auto; 
     margin-right: auto;
   }
+
+  .prueba{
+    margin-top: 20px !important;
+    margin-bottom: -12px !important;
+  }
+
 }
 
 .hero .icon-boxes {
