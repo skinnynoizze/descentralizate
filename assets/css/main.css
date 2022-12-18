@@ -47,7 +47,7 @@ a {
 }
 
 a:hover {
-  color: #00b6a1;
+  color: var(--color-clarito);
   text-decoration: none;
 }
 
@@ -184,7 +184,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(248, 90, 64, 0.8);
+  background: var(--color-clarito);
   color: #fff;
 }
 
@@ -514,7 +514,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: var(--color-primary);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -570,8 +570,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #007466;
-    border: 1px solid #006459;
+    /*background-color: #007466;*/
+    /*border: 1px solid #006459;*/
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -613,7 +613,9 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
+    background: rgba(255, 211, 128, 0.5);
+    background: rgba(138, 80, 143, 0.6);
+    
     z-index: 9996;
   }
 }
@@ -1035,7 +1037,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: #00b6a1;
+  background: var(--color-clarito);
 }
 
 .services .service-item:hover h3 {
